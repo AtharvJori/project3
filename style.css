@@ -23,8 +23,7 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
- }
+}
  p{
      font-size: 30px;
      font-weight: 800;
@@ -106,5 +105,10 @@ border: none;
  }
  .quote{
      font-size: 20px;
+ }
+ @media only screen and(min-width: 500px){
+     h1{
+         color:blue;
+     }
  }
  
