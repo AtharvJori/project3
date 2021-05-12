@@ -108,3 +108,28 @@ border: none;
  .quote{
      font-size: 20px;
  }
+ @media only screen and (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    H1{
+        text-align: center;
+        background-color: rgb(156, 134, 235);
+        padding: 20px;
+     }
+     .content{
+        background-color: rgb(240, 183, 238);
+        border-radius: 20px;
+       
+    }
+    .book{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+ }
