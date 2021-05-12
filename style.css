@@ -122,6 +122,10 @@ border: none;
         background-color: rgb(156, 134, 235);
         padding: 20px;
      }
+     main{
+        display: flex;
+        
+    }
      .content{
         background-color: rgb(240, 183, 238);
         border-radius: 20px;
